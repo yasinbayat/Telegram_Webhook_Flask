@@ -1,0 +1,20 @@
+[
+  {
+    "summary": "Prometheus job missing (instance localhost:9090)",
+    "description": "A Prometheus job has disappeared VALUE = some_value",
+    "status": "firing",
+    "startsAt": "2023-06-11T09:52:26.739266+02:00",
+    "endsAt": "0001-01-01T00:00:00Z",
+    "labels": {
+      "alertname": "PrometheusJobMissing",
+      "job": "prometheus",
+      "severity": "critical",
+      "team": "asdfdasfcc",
+      "value": "some_value"
+    },
+    "annotations": {
+      "summary": "Prometheus job missing (instance localhost:9090)",
+      "description": "A Prometheus job has disappeared VALUE = some_value"
+    }
+  }
+]
